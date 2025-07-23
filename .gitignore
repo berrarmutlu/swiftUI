@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.moved-aside
+*.xcsettings
+*.swp
+*.lock
+*.orig
+
+# SwiftPM
+/.build/
+/Packages/
+/.swiftpm/xcode/package.xcworkspace
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Archives
+*.xcarchive
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# User-specific
+*.personal.xcconfig
+
+# SwiftLint
+.swiftlint.yml
+
+# Bundle artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# IDEs
+.idea/
+*.iml
+*.hmap
