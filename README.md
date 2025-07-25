@@ -1,6 +1,6 @@
 # Day 3 - Swift Notları
 
-## 📚 Array (Dizi)
+## Array (Dizi)
 
 - Dizi bir değişkense (`var`) oluşturulduktan sonra değiştirilebilir.
 - Yeni öğe eklemek için `.append()` kullanılır.
@@ -11,14 +11,14 @@
 - `.sorted()`: Diziyi alfabetik olarak sıralar (orijinal dizi değişmez).
 - `.reversed()`: Diziyi tersine çevirir (orijinal dizi değişmez).
 
-## 📘 Dictionary (Sözlük)
+## Dictionary (Sözlük)
 
 - Veriler `anahtar:değer` şeklinde saklanır.
 - Yeni veri eklemek için bir **anahtar** belirtilmesi gerekir.
 - `.count`: Sözlükteki öğe sayısını verir.
 - `.removeAll()`: Tüm öğeleri siler.
 
-## 📗 Set (Küme)
+## Set (Küme)
 
 - Array’e benzer şekilde oluşturulur.
 - Tekrar eden verileri otomatik olarak kaldırır.
@@ -28,7 +28,7 @@
 - Set sırasızdır ve kopya içeremez;  
   array sıralıdır ve kopya içerebilir.
 
-## 🧩 Enum
+## Enum
 
 - Belirli seçenekleri gruplamak için kullanılır.
 - Kodun daha okunabilir ve anlamlı olmasını sağlar.
