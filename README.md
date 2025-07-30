@@ -2,8 +2,8 @@
 
 ## Fonksiyonun Kopyalanması  
 - Fonksiyonu kopyalarken parantez kullanılmaz.  
-  `var greetCopy = greetUser` 
-  `var greetCopy = greetUser()` 
+  `var greetCopy = greetUser` ✅  
+  `var greetCopy = greetUser()` ❌  
 - Fonksiyonun kendisi bir değişken veya sabite atanabilir.
 
 ## Closure Tanımı  
@@ -32,3 +32,9 @@
 ## Shorthand Closure Syntax  
 - Parametre isimleri verilmez, `$0`, `$1` gibi otomatik adlandırmalar kullanılır.  
 - Daha kısa ve pratik yazım sağlar.
+
+## Fonksiyon ve Closure Farkı  
+- Fonksiyonlar `func` ile tanımlanır, isimleri vardır.  
+- Closure'lar isimsizdir, genelde bir değişkene atanır.  
+- Fonksiyonlar tekrar tekrar çağrılabilir, closure'lar esnek kullanım için tercih edilir.  
+- Closure, fonksiyona çok benzer çalışır ama daha sade ve yerinde tanımlamalar için kullanılır.
